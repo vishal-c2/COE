@@ -51,6 +51,6 @@ def save_to_chroma(chunks: list[Document]):
     )
     db.persist()
     print(f"Saved {len(chunks)} chunks to {CHROMA_PATH}.")
-
+#IF STATEMENT
 if __name__ == "__main__":
     main()
